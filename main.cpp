@@ -26,7 +26,7 @@ int main() {
     if (player->getHealth() > enemy->getHealth()) {
         cout << "Player: "<<player->getName()<<" Won" << endl;
     } else {
-        cout << "Enemy: "<<enemy->getName()<<" Won" << endl;
+        cout << "Enemy: \""<<enemy->getName()<<"\" Won" << endl;
     }
 
     delete player;
